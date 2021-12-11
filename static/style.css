@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comforter+Brush&family=Poppins:wght@100&family=Roboto+Mono:wght@100&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+#navbar{
+    background-color: black;
+    padding: 13px 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: x-small;
+   padding-left: 10px;
+}
+#logo img{
+    height: 30px;
+    
+
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+  text-decoration: none;
+  padding: 22px;
+  color: white;
+}
+#navbar li a:hover{
+    color: goldenrod;
+    text-decoration: overline;
+}
+#introspect{
+    background: center / contain  repeat url("/static/image/banner.jpg");
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 300px;
+background-color: rgba(172, 255, 47, 0.548);
+color: white;
+font-size: 30px;
+
+}    
+#introspect div.small{
+    font-size: 20px;
+    margin-bottom: 80px;
+     
+}
+#sponsorSection{
+height: 300px;
+background-color: rgba(222, 184, 135, 0.644);
+}
+
+#sponsorSection h3{
+text-align: center;
+font-weight: bold;
+font-size: 40px;
+}
+#missionSection{
+    height: 300px;
+    background-color: rgb(122, 180, 245);
+}
+#missionSection h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+.card{display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 25%;
+    height: 200px;
+    margin: 20px 50px;
+}
+.card p{
+    text-align: center;
+    margin: 12px;
+    text-decoration: overline;
+}
+.card-box{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+      
+}
+.card-img{
+    height: 100px;
+    
+ 
+}
+.card-img img{
+    height: inherit;
+    margin-left:65px;
+}
+h5{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.spImage{
+    height: 50%;
+    margin: 40px;
+    
+}
+#footer{
+    
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    color:white;
+    padding-top: 10px;
+}

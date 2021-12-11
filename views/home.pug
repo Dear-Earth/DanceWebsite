@@ -1,0 +1,50 @@
+extends base.pug 
+
+block scripts 
+    script(src="/static/index.js") 
+
+block style 
+        style 
+             include ../static/style.css
+
+block content 
+           
+       section#introspect 
+        div Give A Chance For Your Dance.
+        div Welcome To Arpit's Dance Academy.
+        div.small Live In Dance.
+        
+       section#missionSection 
+        h3 Our Mission
+        div.card
+         p Dance Moves With perfection
+         div.card-box
+             div.card-img
+                 img(src="/static/image/dance1.jpg")
+                 div.card-content
+                 h5 This is the best dance academy globally. 
+        div.card
+         p Dance The Way You Like
+         div.card-box
+             div.card-img
+                 img(src="/static/image/dance3.jpg")
+                 div.card-content
+                 h5 This is the best dance academy globally. 
+        div.card
+         p Dance Expert Teaching
+         div.card-box
+             div.card-img
+             
+                 img(src="/static/image/dance2.jpg")
+                 div.card-content
+                 h5 This is the best dance academy globally. 
+        section#sponsorSection 
+                  h3 Our Sponsors
+                  div#sponsors 
+                  img(src="/static/image/Sponsor.jpg", alt="sponsor image", class="spImage")
+                  img(src="/static/image/skype.logo.png", alt="sponsor image", class="spImage")
+                  img(src="/static/image/apple.logo.jpg", alt="sponsor image", class="spImage")
+                  img(src="/static/image/hp.logo.png", alt="sponsor image", class="spImage")
+        footer#footer 
+               | Copyright©2019 ArpitDanceAcademy.com | All rights reserved...
+        
